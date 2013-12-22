@@ -1,0 +1,644 @@
+#LI_1 {
+    min-height: 93px;
+    width: 313px;
+    background: rgba(0, 0, 0, 0.00784314) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal 16px/16px HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    list-style: none outside none;
+    padding: 0px 0px 10px;
+}/*#LI_1*/
+
+#DIV_2, #DIV_3 {
+   
+    text-align: left;
+    width: 313px;
+    font: normal normal normal 16px/16px HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    list-style: none outside none;
+}/*#DIV_2, #DIV_3*/
+
+#DIV_4 {
+    box-shadow: rgba(0, 0, 0, 0.0470588) 1px 1px 7px 0px;
+    
+    position: relative;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 295px;
+    background: rgb(244, 244, 239) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 5px 5px;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    padding: 8px 8px 7px;
+}/*#DIV_4*/
+
+#DIV_5 {
+    cursor: move;
+    height: 20px;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 295px;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+}/*#DIV_5*/
+
+#DIV_5:after {
+    clear: both;
+    cursor: move;
+    display: table;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 1px;
+    content: '';
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+}/*#DIV_5:after*/
+
+#DIV_6 {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 20px;
+    background: rgb(155, 206, 16) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 50% 50% 50% 50%;
+    font: normal normal 600 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 0px 0px 0px 3px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_6*/
+
+#P_7 {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 21px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    top: -1px;
+    width: 21px;
+    background: rgb(155, 206, 16) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    font: normal normal 600 10px/21px Helvetica;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#P_7*/
+
+#DIV_8 {
+    cursor: move;
+    float: left;
+    height: 19px;
+    position: relative;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 84px;
+    font: normal normal normal 11px/19px Helvetica;
+    list-style: none outside none;
+    margin: 0px 0px 0px 7px;
+}/*#DIV_8*/
+
+#P_9 {
+    cursor: pointer;
+    float: left;
+    height: 18px;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 18px;
+    background: rgba(0, 0, 0, 0) url(https://sprintly.global.ssl.fastly.net/934b1ca42038/static/images/unassigned_icon_18.png) repeat scroll 0% 0% / auto padding-box border-box;
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal normal 11px/19px Helvetica;
+    list-style: none outside none;
+    margin: 0px 5px 0px 0px;
+}/*#P_9*/
+
+#A_10 {
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal normal 11px/19px Helvetica;
+    list-style: none outside none;
+    outline: rgb(68, 68, 68) none 0px;
+}/*#A_10*/
+
+#DIV_11 {
+    cursor: move;
+    display: none;
+    float: left;
+    height: auto;
+    position: relative;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: auto;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 0px 0px 0px 10px;
+}/*#DIV_11*/
+
+#DIV_12 {
+    cursor: move;
+    height: auto;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: auto;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: -1px;
+}/*#DIV_12*/
+
+#BUTTON_13 {
+    color: rgb(233, 232, 225);
+    cursor: pointer;
+    height: auto;
+    min-height: 0px;
+    text-decoration: none solid rgb(233, 232, 225);
+    width: auto;
+    background: rgb(132, 180, 49) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(233, 232, 225);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal normal 11px/19px Helvetica;
+    list-style: none outside none;
+    margin: 0px 3px 0px 1px;
+    outline: rgb(233, 232, 225) none 0px;
+    padding: 0px 7px;
+}/*#BUTTON_13*/
+
+#BUTTON_14 {
+    color: rgb(233, 232, 225);
+    cursor: pointer;
+    height: auto;
+    min-height: 0px;
+    text-decoration: none solid rgb(233, 232, 225);
+    width: auto;
+    background: rgb(217, 73, 73) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(233, 232, 225);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal normal 11px/19px Helvetica;
+    list-style: none outside none;
+    margin: 0px 1px;
+    outline: rgb(233, 232, 225) none 0px;
+    padding: 0px 7px;
+}/*#BUTTON_14*/
+
+#OL_15 {
+    cursor: move;
+    display: none;
+    height: auto;
+    position: absolute;
+    right: 7px;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: auto;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 2px 0px 0px;
+    padding: 0px;
+}/*#OL_15*/
+
+#LI_16 {
+    cursor: move;
+    float: right;
+    height: auto;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: auto;
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    padding: 0px 0px 0px 3px;
+}/*#LI_16*/
+
+#A_17 {
+    background-position: 0px -176px;
+    color: rgb(68, 68, 68);
+    display: block;
+    height: 16px;
+    text-align: left;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 16px;
+    background: rgba(0, 0, 0, 0) url(https://sprintly.global.ssl.fastly.net/934b1ca42038/static/images/icons-sprite.png) no-repeat scroll 0px -176px / auto padding-box border-box;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(68, 68, 68) none 0px;
+}/*#A_17*/
+
+#LI_18 {
+    cursor: move;
+    float: right;
+    height: auto;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: auto;
+    border-right: 1px solid rgba(0, 0, 0, 0.0784314);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    padding: 0px 3px;
+}/*#LI_18*/
+
+#A_19 {
+    background-position: 0px -160px;
+    color: rgb(68, 68, 68);
+    display: block;
+    height: 16px;
+    text-align: left;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 16px;
+    background: rgba(0, 0, 0, 0) url(https://sprintly.global.ssl.fastly.net/934b1ca42038/static/images/icons-sprite.png) no-repeat scroll 0px -160px / auto padding-box border-box;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(68, 68, 68) none 0px;
+}/*#A_19*/
+
+#DIV_20 {
+    cursor: move;
+    height: auto;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: auto;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+}/*#DIV_20*/
+
+#DIV_21 {
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 277px;
+    background: rgb(228, 239, 207) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(210, 219, 191);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 7px 0px 0px;
+    padding: 8px 8px 6px;
+}/*#DIV_21*/
+
+#A_22, #SPAN_23, #SPAN_25 {
+    color: rgb(92, 92, 92);
+    text-align: left;
+    text-decoration: none solid rgb(92, 92, 92);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    border: 0px none rgb(92, 92, 92);
+    font: normal normal normal 14px/20px Georgia;
+    list-style: none outside none;
+    outline: rgb(92, 92, 92) none 0px;
+}/*#A_22, #SPAN_23, #SPAN_25*/
+
+#SPAN_24, #SPAN_26 {
+    color: rgb(92, 92, 92);
+    text-align: left;
+    text-decoration: none solid rgb(92, 92, 92);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    background: rgb(244, 249, 236) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(92, 92, 92);
+    border-right: 0px none rgb(92, 92, 92);
+    border-bottom: 1px solid rgb(215, 226, 196);
+    border-left: 0px none rgb(92, 92, 92);
+    font: normal normal normal 14px/20px Georgia;
+    list-style: none outside none;
+    outline: rgb(92, 92, 92) none 0px;
+    padding: 1px 2px;
+}/*#SPAN_24, #SPAN_26*/
+
+#SPAN_27 {
+    color: rgb(92, 92, 92);
+    display: none;
+    text-align: left;
+    text-decoration: none solid rgb(92, 92, 92);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    border: 0px none rgb(92, 92, 92);
+    font: normal normal normal 14px/20px Georgia;
+    list-style: none outside none;
+    outline: rgb(92, 92, 92) none 0px;
+}/*#SPAN_27*/
+
+#SPAN_28 {
+    color: rgb(92, 92, 92);
+    display: none;
+    text-align: left;
+    text-decoration: none solid rgb(92, 92, 92);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    background: rgb(244, 249, 236) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(92, 92, 92);
+    border-right: 0px none rgb(92, 92, 92);
+    border-bottom: 1px solid rgb(215, 226, 196);
+    border-left: 0px none rgb(92, 92, 92);
+    font: normal normal normal 14px/20px Georgia;
+    list-style: none outside none;
+    outline: rgb(92, 92, 92) none 0px;
+    padding: 1px 2px;
+}/*#SPAN_28*/
+
+#UL_29 {
+    display: inline-block;
+    height: 11px;
+    position: relative;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 80px;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 3px 0px 0px 3px;
+    padding: 0px 0px 0px 14px;
+}/*#UL_29*/
+
+#LI_30, #LI_33 {
+    display: block;
+    float: left;
+    height: 0px;
+    text-shadow: rgba(255, 255, 255, 0.247059) 1px 1px 0px;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 0px 4px 0px 0px;
+}/*#LI_30, #LI_33*/
+
+#A_31, #A_35 {
+    color: rgb(68, 68, 68);
+    text-align: left;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: rgba(255, 255, 255, 0.247059) 1px 1px 0px;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(68, 68, 68) none 0px;
+}/*#A_31, #A_35*/
+
+#SPAN_32 {
+    background-position: -4px -228px;
+    color: rgb(68, 68, 68);
+    display: block;
+    height: 8px;
+    left: 2px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-indent: -119988px;
+    text-shadow: rgba(255, 255, 255, 0.247059) 1px 1px 0px;
+    top: 0px;
+    vertical-align: middle;
+    width: 8px;
+    background: rgba(0, 0, 0, 0) url(https://sprintly.global.ssl.fastly.net/934b1ca42038/static/images/icons-sprite.png) no-repeat scroll -4px -228px / auto padding-box border-box;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(68, 68, 68) none 0px;
+    overflow: hidden;
+}/*#SPAN_32*/
+
+#LI_34 {
+    display: block;
+    float: left;
+    height: 11px;
+    text-shadow: rgba(255, 255, 255, 0.247059) 1px 1px 0px;
+    width: 72px;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+}/*#LI_34*/
+
+#DIV_36 {
+    height: 11px;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 277px;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 4px 0px 0px;
+}/*#DIV_36*/
+
+#DIV_36:after {
+    clear: both;
+    display: table;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 1px;
+    content: '';
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+}/*#DIV_36:after*/
+
+#DIV_37, #DIV_38 {
+    color: rgb(138, 161, 93);
+    float: left;
+    height: 11px;
+    text-align: left;
+    text-decoration: none solid rgb(138, 161, 93);
+    text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 0px;
+    width: 12px;
+    border: 0px none rgb(138, 161, 93);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(138, 161, 93) none 0px;
+}/*#DIV_37, #DIV_38*/
+
+#OL_39 {
+    float: right;
+    height: 11px;
+    text-align: left;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 96px;
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 0px;
+    padding: 0px;
+}/*#OL_39*/
+
+#LI_40, #LI_42 {
+    color: rgb(159, 159, 157);
+    display: block;
+    float: right;
+    height: 11px;
+    opacity: 0.3499999940395355;
+    position: relative;
+    text-decoration: none solid rgb(159, 159, 157);
+    width: 22px;
+    z-index: 0;
+    border: 0px none rgb(159, 159, 157);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 0px 0px 0px 10px;
+    outline: rgb(159, 159, 157) none 0px;
+}/*#LI_40, #LI_42*/
+
+#A_41 {
+    color: rgb(159, 159, 157);
+    cursor: pointer;
+    display: block;
+    height: 11px;
+    text-align: left;
+    text-decoration: none solid rgb(159, 159, 157);
+    width: 22px;
+    border: 0px none rgb(159, 159, 157);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(159, 159, 157) none 0px;
+}/*#A_41*/
+
+#A_41:before {
+    background-position: 0px -20px;
+    color: rgb(159, 159, 157);
+    cursor: pointer;
+    display: inline-block;
+    height: 9px;
+    position: relative;
+    right: 1px;
+    text-align: left;
+    text-decoration: none solid rgb(159, 159, 157);
+    top: 1px;
+    width: 16px;
+    content: '';
+    background: rgba(0, 0, 0, 0) url(https://sprintly.global.ssl.fastly.net/934b1ca42038/static/images/icons-sprite.png) no-repeat scroll 0px -20px / auto padding-box border-box;
+    border: 0px none rgb(159, 159, 157);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(159, 159, 157) none 0px;
+}/*#A_41:before*/
+
+#A_43 {
+    color: rgb(159, 159, 157);
+    cursor: default;
+    display: block;
+    height: 11px;
+    text-align: left;
+    text-decoration: none solid rgb(159, 159, 157);
+    width: 22px;
+    border: 0px none rgb(159, 159, 157);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(159, 159, 157) none 0px;
+}/*#A_43*/
+
+#A_43:before {
+    background-position: 0px -36px;
+    color: rgb(159, 159, 157);
+    cursor: default;
+    display: inline-block;
+    height: 9px;
+    position: relative;
+    right: 1px;
+    text-align: left;
+    text-decoration: none solid rgb(159, 159, 157);
+    top: 1px;
+    width: 16px;
+    content: '';
+    background: rgba(0, 0, 0, 0) url(https://sprintly.global.ssl.fastly.net/934b1ca42038/static/images/icons-sprite.png) no-repeat scroll 0px -36px / auto padding-box border-box;
+    border: 0px none rgb(159, 159, 157);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(159, 159, 157) none 0px;
+}/*#A_43:before*/
+
+#LI_44 {
+    color: rgb(159, 159, 157);
+    display: block;
+    float: right;
+    height: 11px;
+    position: relative;
+    text-decoration: none solid rgb(159, 159, 157);
+    width: 22px;
+    border: 0px none rgb(159, 159, 157);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    margin: 0px 0px 0px 10px;
+    outline: rgb(159, 159, 157) none 0px;
+}/*#LI_44*/
+
+#A_45 {
+    color: rgb(159, 159, 157);
+    cursor: default;
+    display: block;
+    height: 11px;
+    text-align: left;
+    text-decoration: none solid rgb(159, 159, 157);
+    width: 22px;
+    border: 0px none rgb(159, 159, 157);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(159, 159, 157) none 0px;
+}/*#A_45*/
+
+#A_45:before {
+    background-position: 0px -4px;
+    color: rgb(159, 159, 157);
+    cursor: default;
+    display: inline-block;
+    height: 9px;
+    position: relative;
+    right: 1px;
+    text-align: left;
+    text-decoration: none solid rgb(159, 159, 157);
+    top: 1px;
+    width: 16px;
+    content: '';
+    background: rgba(0, 0, 0, 0) url(https://sprintly.global.ssl.fastly.net/934b1ca42038/static/images/icons-sprite.png) no-repeat scroll 0px -4px / auto padding-box border-box;
+    border: 0px none rgb(159, 159, 157);
+    font: normal normal normal 11px/11px Helvetica;
+    list-style: none outside none;
+    outline: rgb(159, 159, 157) none 0px;
+}/*#A_45:before*/
+
+#DIV_46 {
+    color: rgb(118, 118, 118);
+    display: none;
+    height: auto;
+    text-align: right;
+    text-decoration: none solid rgb(118, 118, 118);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: auto;
+    border: 0px none rgb(118, 118, 118);
+    font: normal normal normal 10px/10px Helvetica;
+    list-style: none outside none;
+    outline: rgb(118, 118, 118) none 0px;
+    padding: 5px 0px 0px;
+}/*#DIV_46*/
+
+#P_47 {
+    color: rgb(118, 118, 118);
+    height: auto;
+    text-align: right;
+    text-decoration: none solid rgb(118, 118, 118);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: auto;
+    border: 0px none rgb(118, 118, 118);
+    font: normal normal normal 10px/10px Helvetica;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(118, 118, 118) none 0px;
+}/*#P_47*/
+
+#A_48, #TIME_49 {
+    color: rgb(118, 118, 118);
+    text-align: right;
+    text-decoration: none solid rgb(118, 118, 118);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    border: 0px none rgb(118, 118, 118);
+    font: normal normal normal 10px/10px Helvetica;
+    list-style: none outside none;
+    outline: rgb(118, 118, 118) none 0px;
+}/*#A_48, #TIME_49*/
+
+#UL_50 {
+    text-align: left;
+    width: 313px;
+    font: normal normal normal 16px/16px HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    list-style: circle outside none;
+    margin: 0px;
+    padding: 0px;
+}/*#UL_50*/
+
+#DIV_51 {
+    display: none;
+    height: auto;
+    text-align: left;
+    width: auto;
+    font: normal normal normal 16px/16px HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    list-style: none outside none;
+}/*#DIV_51*//* CSS declarations go here */

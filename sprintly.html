@@ -1,0 +1,128 @@
+<head>
+  <title>sprintly</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <h1>Hello World!</h1>
+  {{greeting}}
+  {{> fetch}}<br>
+  <ul>
+	  {{#each sprintlyResponse}}
+	    {{>card}}
+	  {{/each}}
+	</ul>
+</template>
+
+<template name="fetch">
+  <input type="button" class="btn sprintly_fetch_submit" Value="Fetch Stories from Sprint.ly"/>
+</template>
+
+<template name="card">
+  <li class="rendered item" id="LI_1">
+  <div class="item_card_container" id="DIV_2">
+    <div class="card_container" id="DIV_3">
+      <div class="card story backlog" id="DIV_4">
+        <div class="top clearfix" id="DIV_5">
+          <div class="estimator" id="DIV_6">
+            <p class="score estimate" id="P_7" style="text-shadow:none">
+              {{number}}
+            </p>
+          </div>
+          <div class="status" id="DIV_8">
+            <p class="unassigned assign" id="P_9">
+            </p>
+            
+            {{#if assigned_to}}
+            {{#with assigned_to}}
+            {{first_name}} {{last_name}}
+            {{/with}}
+            {{else}}
+            unassigned
+            {{/if}}
+          </div>
+          <div class="actions" id="DIV_11">
+            <div class="buttons" id="DIV_12">
+               
+              <button class="start green" id="BUTTON_13">
+                Start
+              </button> 
+              <button class="reject red" id="BUTTON_14">
+                Reject
+              </button>
+            </div>
+          </div>
+          <ol class="icons" id="OL_15">
+            <li class="select" id="LI_16">
+              <a href="javascript:void(0);" id="A_17"></a>
+            </li>
+            <li class="settings_wrapper" id="LI_18">
+              <a class="settings_icon" href="javascript:void(0);" id="A_19"></a>
+              <div class="settings" id="DIV_20">
+                <div class="value" id="DIV_38">
+              </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div class="body handle" id="DIV_21">
+           <a href="https://sprint.ly/product/12893/#!/item/{{number}}" class="title" id="A_22" style="display:block; margin-bottom:15px"> <span class="as-article" id="SPAN_23">As a</span> <span class="part who" id="SPAN_24">{{who}}</span> <span class="i-want" id="SPAN_25">I want</span> <span class="part what" id="SPAN_26">{{what}}</span> <span class="so-that" id="SPAN_27">so that</span> <span class="part why" id="SPAN_28">{{why}}</span>.</a>
+
+           {{#each tags}}
+          <ul class="item_tags" id="UL_29">
+            <li class="tag_holder" id="LI_30">
+               <a href="javascript:void(0);" class="icon_holder" id="A_31"><span class="icon" id="SPAN_32"></span></a>
+            </li>
+            <li class="tag-popup" id="LI_33">
+            </li>
+            <li class="tag" id="LI_34">   
+                <a href="https://sprint.ly/product/12893/#!/dashboard/#tags={{this}}" class="name" id="A_35">{{this}}</a>
+            </li>
+          </ul>
+          {{/each}}
+          <div class="bottom clearfix" id="DIV_36">
+            <div class="number" id="DIV_37">
+              <!--<div class="backlog">✏</div>-->
+
+            </div>
+            <!--Remove stats -->
+            <!--
+            <ol class="stats" id="OL_39">
+              <li class="stat favorites zero " id="LI_40">
+                <a href="javascript:void(0);" id="A_41">0</a>
+              </li>
+              <li class="stat comments zero" id="LI_42">
+                <a href="/product/12893/#!/item/6" id="A_43">0</a>
+              </li>
+              <li class="stat team" id="LI_44">
+                <a href="/product/12893/#!/item/6" id="A_45">1</a>
+              </li>
+            </ol>
+            -->
+          <!--End Remove Stats-->
+          </div>
+        </div>
+        <div class="outer_bottom" id="DIV_46" style="display:block">
+          <p id="P_47">
+            Created by 
+            {{#with created_by}}
+            {{first_name}} {{last_name}} 
+            <time class="timeago" id="TIME_49">
+              {{! TODO- create helper for time. Current date > created at to months }}
+              {{!created_at}}
+              {{/with}}
+            </time>
+          </p>
+        </div>
+      </div>
+    </div>
+    <ul class="sub_items" id="UL_50">
+    </ul>
+    <div class="accepted_count" id="DIV_51">
+    </div>
+  </div>
+</li>
+</template>
