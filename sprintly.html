@@ -27,14 +27,6 @@
   <input type="button" class="btn sprintly_fetch_submit" Value="Fetch Stories from Sprint.ly"/>
 </template>
 
-<template name="contentOLD2">
-   <div id="grube" class="isDragged" style="position: absolute; top: 25px; left: 25px; bottom: 25px; right: 25px">
-   {{#each card}}
-      <img class="draggable" id="{{_id}}" src="{{src}}" style="position: absolute; top:{{top}}px; left:{{left}}px"/>
-   {{/each}}
-   </div>
-</template>
-
 <template name="content">
   <li class="draggable rendered item" id="{{number}}" style="position: absolute; top:{{top}}px; left:{{left}}px">
   <div class="item_card_container" id="DIV_2">
