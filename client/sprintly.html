@@ -1,5 +1,10 @@
 <head>
   <title>sprintly</title>
+  <style type="text/css">
+      .isDragged {
+         border: 1px solid #0000cc;
+      }
+   </style>
 </head>
 
 <body>
@@ -7,22 +12,31 @@
 </body>
 
 <template name="hello">
-  <h1>Hello World!</h1>
-  {{greeting}}
   {{> fetch}}<br>
-  <ul>
+  <div id="grube" class="isDragged" style="position: absolute; top: 25px; left: 25px; bottom: 25px; right: 25px">
+
+  <ul id="LI-1">
 	  {{#each sprintlyResponse}}
-	    {{>card}}
+	    {{>content}}
 	  {{/each}}
 	</ul>
+</div>
 </template>
 
 <template name="fetch">
   <input type="button" class="btn sprintly_fetch_submit" Value="Fetch Stories from Sprint.ly"/>
 </template>
 
-<template name="card">
-  <li class="rendered item" id="LI_1">
+<template name="contentOLD2">
+   <div id="grube" class="isDragged" style="position: absolute; top: 25px; left: 25px; bottom: 25px; right: 25px">
+   {{#each card}}
+      <img class="draggable" id="{{_id}}" src="{{src}}" style="position: absolute; top:{{top}}px; left:{{left}}px"/>
+   {{/each}}
+   </div>
+</template>
+
+<template name="content">
+  <li class="draggable rendered item" id="{{number}}" style="position: absolute; top:{{top}}px; left:{{left}}px">
   <div class="item_card_container" id="DIV_2">
     <div class="card_container" id="DIV_3">
       <div class="card story backlog" id="DIV_4">

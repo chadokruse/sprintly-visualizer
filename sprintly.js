@@ -70,6 +70,7 @@ if (Meteor.isServer) {
     console.log("result");
     if(result.statusCode==200) {
       var respJson = JSON.parse(result.content);
+      var Items = JSON.parse(result.content);
       console.log("response received.");
       console.log(respJson)
       return respJson;
@@ -86,5 +87,18 @@ if (Meteor.isServer) {
     }
   }
   });
+
+  if ( Items.find().count() == 0 ) {
+      Items.insert( {_id: "image1", top: 0, left: 0} );
+      Items.insert( {_id: "image2", top: 0, left: 0} );
+      Items.insert( {_id: "image3", top: 0, left: 0} );
+      Items.insert( {_id: "image4", top: 0, left: 0} );
+      Items.insert( {_id: "image5", top: 0, left: 0} );
+   } else {
+      Items.find().forEach(function ( item ) {
+         if(item.left < 0 | item.top < 0 )
+            Items.update({_id: item._id}, {$set: {left:0, top:0}});
+      });
+   }
 
 }
