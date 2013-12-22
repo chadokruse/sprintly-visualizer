@@ -26,7 +26,7 @@ if (Meteor.isClient) {
 
       var params = { 
           "type": "story",
-          "status": "someday"
+          "status": "someday, backlog"
         };
 
       Meteor.call('pullFromSprintly', params, function (err, respJson) {
