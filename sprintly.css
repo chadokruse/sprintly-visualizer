@@ -311,7 +311,7 @@
 
 #SPAN_27 {
     color: rgb(92, 92, 92);
-    display: none;
+    /*display: none;*/
     text-align: left;
     text-decoration: none solid rgb(92, 92, 92);
     text-shadow: rgb(255, 255, 255) 0px 1px 0px;
@@ -323,7 +323,7 @@
 
 #SPAN_28 {
     color: rgb(92, 92, 92);
-    display: none;
+    /*display: none;*/
     text-align: left;
     text-decoration: none solid rgb(92, 92, 92);
     text-shadow: rgb(255, 255, 255) 0px 1px 0px;
