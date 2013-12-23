@@ -82,7 +82,7 @@ And please, make sure you password-protect your site if deploying to meteors ser
 ##Misc Notes
 
 1. Error handling from Sprintly responses are NOT hooked up yet, so open up console if your app is throwing errors.
-2. Half of the app is for the drag and drop functionality. If you just want to see how the API call is set up without all the additional clutter, revert back to [this commit]().
+2. Half of the app is for the drag and drop functionality. If you just want to see how the API call is set up without all the additional clutter, revert back to [this commit](https://github.com/chadokruse/sprintly-visualizer/commit/ff81cc95bcecb294b29a8c7bd9b9ee36140e69b3).
 
 ## Disclaimer  
 
@@ -90,6 +90,6 @@ This code is provided "as is" with no warranties. It'll probably break and may e
 
 ### License
 
-Do with it as you wish, commercial or otherwise. If you like formal licenses: Copyright (c) 2013 Chad Kruse, released under the MIT license.  
+Sprintly card design copyright (c) Sprint.ly. All else, do with it as you wish, commercial or otherwise.  
 
 
