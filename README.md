@@ -15,9 +15,6 @@ This project wouldn't have been possible without the following reference apps/gi
 You guys are awesome…thanks!
 
 
-### Demo
-[Live demo](https://sprintly-visualizer.meteor.com)
-
 ### Screenshot
 
 ![Landing Page](https://github.com/chadokruse/sprintly-visualizer/raw/master/screenshot.png)
